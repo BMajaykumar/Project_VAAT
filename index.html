@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAAT Exchange</title>
+    <title>VAAT Exchange</title> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- CSS-link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +18,13 @@
 <link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
-<body>
-
+<body>   
     <header>
+        
         <a href="#" class="logo"><img src="logo2.png" alt=""></a>
 
         <ul class="navmenu">
+            <li class="loginp"><a href="loginpage.html">Login</a></li>
             <li><a href="#">home</a></li>
             <li><a href="#trending">shop</a></li>
             <li><a href="#trending">products</a></li>
@@ -130,6 +132,7 @@
         <a href="#" class="buy-now-btn" data-product="p-1">Buy Now</a>
         <a href="exchange.html" class="main-btn">Offer Exchange</a> 
 
+
      </div>
    </div>
 
@@ -153,13 +156,13 @@
         <a href="exchange.html" class="main-btn">Offer Exchange</a> 
      </div>
    </div>
-
+ 
    <div class="preview" data-target="p-3">
       <i class="fas fa-times"></i>
       <img src="images/3.png" alt="">
-      <h3>videocon Fridge</h3>
-      <div class="stars">
-         <i class="fas fa-star"></i>
+      <h3>videocon Fridge</h3>    
+      <div class="stars"> 
+         <i class="fas fa-star"></i> 
          <i class="fas fa-star"></i>
          <i class="fas fa-star"></i>
          <i class="fas fa-star"></i>
@@ -180,7 +183,7 @@
       <img src="images/4.jpg" alt="">
       <h3>Washing Machine</h3>
       <div class="stars">
-         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i> 
          <i class="fas fa-star"></i>
          <i class="fas fa-star"></i>
          <i class="fas fa-star"></i>
@@ -286,7 +289,7 @@
                 <h6>Continue Reading..</h6>
             </div>
         </div>
-    </section>
+    </section>  
 
     <!-- contact-section -->
     <section class="contact">
@@ -365,26 +368,20 @@
             // You can use a switch statement or any other logic here to handle different products
             switch (product) {
                 case "p-1":
-                    window.location.href = "exchange.html?p=1"; // Replace with the actual URL for product p-1
+                    window.location.href = "buynow.html?p=1"; // Replace with the actual URL for product p-1
                     break;
                 case "p-2":
-                    window.location.href = "exchange.html?p=2"; // Replace with the actual URL for product p-2
+                    window.location.href = "buynow.html?p=2"; // Replace with the actual URL for product p-2
                     break;
                 // Add more cases for other products as needed
                 default:
                     // Redirect to a generic buynow.html page if the product is not recognized
-                    window.location.href = "exchange.html";
+                    window.location.href = "buynow.html";
                     break;
             }
         });
     });
 </script>
-
-
-   
-
-
-
 
     <script src="java.js"></script>
 </body>
