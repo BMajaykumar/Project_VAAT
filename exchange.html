@@ -71,7 +71,20 @@
             <input type="number" placeholder="Enter postal code" required />
           </div>
         </div>
-        <button>Submit</button>
+        
+<button id="submitButton">Submit</button>
+
+<script>
+    // Get a reference to the button element
+    var button = document.getElementById("submitButton");
+
+    // Add an onclick event handler to the button
+    button.onclick = function() {
+        // Redirect to the desired page (buynow.html)
+        window.location.href = "buynow.html";
+    };
+</script>
+        
       </form>
     </section>
   </body>
