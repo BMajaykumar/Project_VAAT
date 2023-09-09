@@ -173,7 +173,7 @@
       <div class="price">₹1000.00</div>
       <div class="buttons">
         <!-- Add a unique class or data attribute to the "Buy N" link -->
-        <a href="#" class="buy-now-btn" data-product="p-1">Buy N</a>
+        <a href="#" class="buy-now-btn" data-product="p-1">Buy Now</a>
         <a href="exchange.html" class="main-btn">Offer Exchange</a> 
      </div>
    </div>
@@ -368,15 +368,15 @@
             // You can use a switch statement or any other logic here to handle different products
             switch (product) {
                 case "p-1":
-                    window.location.href = "buynow.html?p=1"; // Replace with the actual URL for product p-1
+                    window.location.href = "exchange.html?p=1"; // Replace with the actual URL for product p-1
                     break;
                 case "p-2":
-                    window.location.href = "buynow.html?p=2"; // Replace with the actual URL for product p-2
+                    window.location.href = "exchange.html?p=2"; // Replace with the actual URL for product p-2
                     break;
                 // Add more cases for other products as needed
                 default:
                     // Redirect to a generic buynow.html page if the product is not recognized
-                    window.location.href = "buynow.html";
+                    window.location.href = "exchange.html";
                     break;
             }
         });
